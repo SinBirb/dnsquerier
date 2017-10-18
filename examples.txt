@@ -1,0 +1,2 @@
+python dnsquerier.py -N "./names.txt" -p 53001 -d normal -P count=10
+python dnsquerier.py -n test.local -p 53001 -d bursts -P requestsPerBurst=100
